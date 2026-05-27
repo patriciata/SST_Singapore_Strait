@@ -1,0 +1,44 @@
+# RELATÓRIO CIENTÍFICO: QUANTIFICAÇÃO DE INCERTEZA TSM (JULHO)
+Gerado em: 27/05/2026 às 23:07:33
+Configuração: TARGET_YEAR = 2025 | MONTH = 7
+
+-------------------------------------------------------------------------
+1. REGRESSÃO LINEAR (OLS)
+-------------------------------------------------------------------------
+- Tamanho da Amostra (n): 24 anos
+- Taxa de Aquecimento (Slope a): 0.028959 °C/ano
+- Intercepto (b): -27.8142 °C
+- Coeficiente de Determinação (R²): 0.2692
+- Erro Padrão Residual (σ_res): 0.3449 °C
+- Erro Padrão da Inclinação (SE_a): 0.010171
+- Estatística t: 2.847 (df=22)
+- Valor-p do t-test: 0.0094
+- Intervalo de Confiança 95% da Inclinação: [0.00786, 0.05005] °C/ano
+
+-------------------------------------------------------------------------
+2. PROJEÇÃO E INTERVALOS PARA JULHO DE 2025
+-------------------------------------------------------------------------
+- Estimativa Pontual (ŷ): 30.827 °C
+- 95% Intervalo de Confiança (Média): [30.544, 31.110] °C
+- 95% Intervalo de Previsão (Evento Único): [30.058, 31.596] °C
+  *(Nota: Use o Intervalo de Previsão para discussões de gerenciamento de risco)*
+
+-------------------------------------------------------------------------
+3. PROBABILIDADES DE EXCEDÊNCIA DE LIMIARES (JULHO DE 2025)
+-------------------------------------------------------------------------
+- P(SST > 29.0 °C) = 1.0000 (100.00%)
+- P(SST > 29.5 °C) = 0.9998 (99.98%)
+- P(SST > 30.0 °C) = 0.9871 (98.71%) (Event temperature)
+- P(SST > 30.5 °C) = 0.8111 (81.11%)
+- P(SST > 31.0 °C) = 0.3206 (32.06%) (World Aquatics Operational Threshold)
+
+-------------------------------------------------------------------------
+4. TESTES NÃO-PARAMÉTRICOS DE ROBUSTEZ
+-------------------------------------------------------------------------
+- Estatística S de Mann-Kendall: 122
+- Escore Z de Mann-Kendall: 3.001
+- Valor-p (Mann-Kendall): 0.0027
+- Inclinação de Theil-Sen: 0.029963 °C/ano
+
+-------------------------------------------------------------------------
+Fim do Relatório — Dados em conformidade com o Anexo I, §§ 1.4.1–1.4.3.
